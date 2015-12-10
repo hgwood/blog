@@ -7,7 +7,7 @@ const fs = require("fs")
 const path = require("path")
 const utils = require("./utils")
 
-const indexFilePath = path.join(__dirname, "index.md")
+const indexFilePath = path.join(__dirname, "README.md")
 
 fs.writeFileSync(indexFilePath,
   utils.posts()
