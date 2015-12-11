@@ -29,7 +29,7 @@ Maintenant que la qualité est définie, je vais définir un autre mot du titre 
 - Utiliser le [Null Object Pattern](http://en.wikipedia.org/wiki/Null_object_pattern).
 - Lever une exception.
 
-Article de ce blog sur le sujet : [No Nulls Shall Pass](http://elevatedabstractions.wordpress.com/2013/11/28/no-nulls-shall-pass/)
+Article de ce blog sur le sujet : [No Nulls Shall Pass](../no-nulls-shall-pass/no-nulls-shall-pass)
 
 # Les méthodes privées
 
@@ -54,7 +54,7 @@ Une solution bien meilleure consiste à exporter les méthodes privées vers de 
 - Le développeur sera forcer de trouver un nom pour la ou les nouvelles classes, ce qui lui permettra de découvrir de nouveaux concepts, potentiellement importants, de son domaine métier. Par ailleurs, si ce concept est amené à évoluer par demande client, alors les modifications seront hermétiquement encapsulées par la classe qui l'implémente.
 - La dépendance entre la classe d'origine et les nouvelles est implémentée au travers d'un champ privé. Il n'est toujours pas possible d'accéder aux méthodes anciennement privées lorsque l'on a un objet du type de la classe d'origine.
 
-Article de ce blog sur le sujet : [Why I Avoid Private Methods](http://elevatedabstractions.wordpress.com/2013/07/20/why-i-avoid-private-methods/)
+Article de ce blog sur le sujet : [Why I Avoid Private Methods](../why-i-avoid-private-methods/why-i-avoid-private-methods)
 
 # L'héritage de classe
 
@@ -65,11 +65,11 @@ Article de ce blog sur le sujet : [Why I Avoid Private Methods](http://elevateda
 
 ### Alternative
 
-Une composition, tout simplement ! Voir les slides et [Single Class Inheritance Is Hell](http://elevatedabstractions.wordpress.com/2013/09/07/single-class-inheritance-is-hell/).
+Une composition, tout simplement ! Voir les slides et [Single Class Inheritance Is Hell](../single-class-inheritance-is-hell/single-class-inheritance-is-hell).
 
 # Les classes abstraites
 
-Les classes abstraites sont bizarres. Très, très bizarre. La testabilité requiert que les dépendances soient explicites et remplaçables. Les classes abstraites sont tout le contraire. Impossible de les instancier sans une classe fille, et impossible d'instancier la classe fille sans classe mère. Une merveille de non-sens. Alternative : à nouveau une simple composition. Voir les slides et [Single Class Inheritance Is Hell](http://elevatedabstractions.wordpress.com/2013/09/07/single-class-inheritance-is-hell/).
+Les classes abstraites sont bizarres. Très, très bizarre. La testabilité requiert que les dépendances soient explicites et remplaçables. Les classes abstraites sont tout le contraire. Impossible de les instancier sans une classe fille, et impossible d'instancier la classe fille sans classe mère. Une merveille de non-sens. Alternative : à nouveau une simple composition. Voir les slides et [Single Class Inheritance Is Hell](../single-class-inheritance-is-hell/single-class-inheritance-is-hell).
 
 # Les champs et méthodes statiques
 
@@ -127,4 +127,4 @@ Ma référence en la matière : [Misko Hevery's Guide to Writing Testable Code](
 
 Je ne dis pas qu'il faut absolument et complètement banir toutes ces fonctionnalités. Il faut simplement reconnaitre et maitriser leurs inconvénients. On peut alors peser le pour et le contre et prendre de sages décisions. Les ennuis commencent quand on a affaire a des débutants. Les problèmes que j'ai exposé sont rarement (jamais ?) abordés lors de la formation des programmeurs, que ce soit à l'école ou dans les livres d'introduction. Au contraire, des fonctionnalités comme l'héritage de classe sont présentées comme héroïques, indispensables, à la base de l'orienté-objet ! Il n'en est rien. Et pourtant, les SSII demandent tous les jours à des débutants de prendre des décisions concernant le design de code. Il y a manifestement un sérieux problème au niveau de la formation des développeurs. C'est peut-être un des seuls métiers où l'on est traité comme compétent avant d'être sorti de l'école. Robert "Uncle Bob" Martin (fameux auteur de _Clean Code_) a récemment publié deux articles à ce sujet : "[Hordes of Novices](http://blog.8thlight.com/uncle-bob/2013/11/19/HoardsOfNovices.html)" et "[Novices. A Coda](http://blog.8thlight.com/uncle-bob/2013/11/25/Novices-Coda.html)". Je ne peux qu'être d'accord avec lui.
 
-Article de ce blog à ce sujet : [Pragmatism &amp; Beginners](http://elevatedabstractions.wordpress.com/2013/10/03/pragmatism-beginners/)
+Article de ce blog à ce sujet : [Pragmatism &amp; Beginners](../pragmatism-beginners/pragmatism-beginners)

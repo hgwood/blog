@@ -7,7 +7,7 @@ JavaScript doesn't have classes. People don't like that. They've been trying har
 
 - Classes complicate the language by adding constructs and keywords
 - Class inheritance complicate the language by adding even more constructs and keywords
-- <a href="http://elevatedabstractions.wordpress.com/2013/09/07/single-class-inheritance-is-hell/" title="Single class inheritance is hell">Single class inheritance is hell</a>
+- [Single class inheritance is hell](../single-class-inheritance-is-hell/single-class-inheritance-is-hell)
 - Multiple class inheritance is forbidden territory
 - Classes violate the Single Responsability Principle by defining both the class object itself and instance objects at the same level
 - Classes are potentially stateful, mutable global objects
