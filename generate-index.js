@@ -31,4 +31,6 @@ This work is licensed under a
 fs.writeFileSync(indexFilePath, renderIndex(
   utils.posts()
     .map(post => `- ${post.yfm.date}: [${post.yfm.title}](${post.basename}/${post.basename}.md)`)
+    .sort()
+    .reverse()
     .join("\n")))
