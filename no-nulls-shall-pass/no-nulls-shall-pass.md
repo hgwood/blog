@@ -22,7 +22,7 @@ I guess everyone has had to deal with this NullPointerException paranoia. I've s
 
 # Leniency
 
-Being lenient means to be willing to work with null. Since null is not an object and you can't dispatch on it (at least in Java and C#), you have no other choice but to pass it as a parameter of another object's method...which will have to check for null, and might return null. We got nowhere. Worse, you might resort to a static method. Somehow, people seem to believe it's OK if that other method is in a library (think StringUtils.isEmpty from Apache Commons). I say static is worse because then you bring all [the inconvenience of static dispatch](http://elevatedabstractions.wordpress.com/2013/09/10/76/) into your code. There's also the permanent danger of null values trickling through the code until it blows very far down the flow.
+Being lenient means to be willing to work with null. Since null is not an object and you can't dispatch on it (at least in Java and C#), you have no other choice but to pass it as a parameter of another object's method...which will have to check for null, and might return null. We got nowhere. Worse, you might resort to a static method. Somehow, people seem to believe it's OK if that other method is in a library (think StringUtils.isEmpty from Apache Commons). I say static is worse because then you bring all [the inconvenience of static dispatch](classes-as-simple-type-definitions/classes-as-simple-type-definitions.md) into your code. There's also the permanent danger of null values trickling through the code until it blows very far down the flow.
 
 # Strictness
 
