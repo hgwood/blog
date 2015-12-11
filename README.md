@@ -3,6 +3,7 @@
 
 ## Posts
 
+- 2014-02-20: [Experimenting with Java 8, streams and exceptions](experimenting-with-java8/experimenting-with-java8.md)
 - 2014-02-08: [Upgrading JUnit and Test Execution Order](upgrading-junit/upgrading-junit.md)
 - 2013-12-31: [Easy vs Simple](easy-vs-simple/easy-vs-simple.md)
 - 2013-11-28: [No Nulls Shall Pass](no-nulls-shall-pass/no-nulls-shall-pass.md)

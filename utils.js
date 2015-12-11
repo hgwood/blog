@@ -10,7 +10,7 @@ module.exports = {posts}
 
 function posts() {
   return fs.readdirSync(__dirname)
-    .filter(filename => filename.match(/^[a-z\-]+$/))
+    .filter(filename => filename.match(/^[a-z0-9\-]+$/))
     .map(postBasename => ({
       basename: postBasename,
       path: path.join(__dirname, postBasename, `${postBasename}.md`)
