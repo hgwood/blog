@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My personal blog",
+  "scripts": {
+    "start": "node ./generate-index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgwood/blog.git"
+  },
+  "author": "Hugo Wood <hx4.5@free.fr",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+  "bugs": {
+    "url": "https://github.com/hgwood/blog/issues"
+  },
+  "homepage": "https://github.com/hgwood/blog",
+  "dependencies": {
+    "minstache": "^1.2.0"
+  }
+}

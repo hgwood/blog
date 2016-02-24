@@ -1,4 +1,3 @@
-
 # Hugo Wood's personal blog
 
 ## Posts
@@ -17,6 +16,17 @@
 - 2013-09-06: [Single-method Class Instanciation is the same as Partial Application](single-method-class-instanciation-is-the-same-as-partial-application/single-method-class-instanciation-is-the-same-as-partial-application.md)
 - 2013-08-25: [Object-Orientation Doesn't Need Classes](oo-doesnt-need-classes/oo-doesnt-need-classes.md)
 - 2013-07-20: [Why I Avoid Private Methods](why-i-avoid-private-methods/why-i-avoid-private-methods.md)
+
+## Open Source Contributions
+
+- [GitHub](https://github.com/pulls?q=is%3Apr+author%3Ahgwood+).
+
+## Online Presence
+
+- [Twitter](https://twitter.com/mercury_wood)
+- [StackOverflow](http://stackoverflow.com/users/1067260/hugo-wood)
+- [CodinGame](https://www.codingame.com/profile/59b9867e5773dbbf711dc3b37c5ca974243451)
+- [LinkedIn](https://fr.linkedin.com/in/hgwood)
 
 ## License
 
