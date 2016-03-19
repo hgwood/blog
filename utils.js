@@ -19,11 +19,12 @@ function posts() {
       content: fs.readFileSync(post.path, "utf8")
     }))
     .map(post => Object.assign({}, post, {
-      yfm: yfm(post.content)
+      yfm: yfm(post)
     }))
 }
 
-function yfm(content) {
-  const matcher = content.match(/^---\s+title: (.*)\s+date: ([\d\-]+)T.+\s+.*\s+---\s+/)
+function yfm(post) {
+  const matcher = post.content.match(/^---\s+title: (.*)\s+date: ([\d\-]+)T.+\s+.*\s+---\s+/)
+  if (!matcher) throw new Error(`incorrect yfm in ${post.path}`)
   return {title: matcher[1], date: matcher[2]}
 }
