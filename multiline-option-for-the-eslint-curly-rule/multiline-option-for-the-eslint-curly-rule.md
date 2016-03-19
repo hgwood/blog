@@ -5,7 +5,7 @@ date: 2016-03-19T23:46
 
 About a year ago, I submitted a
 [contribution](https://github.com/eslint/eslint/pull/1825) to the eslint
-JavaScript linter. This contribution involved added a new option to the `curly`
+JavaScript linter. This contribution involved adding a new option to the `curly`
 rule, named  [`multi-line`](http://eslint.org/docs/rules/curly#multi-line),
 which makes eslint allow the absence of curly braces when the opening and the
 closing braces would have been on the same line. All other  cases behave as they
@@ -27,11 +27,11 @@ else
   writeThisBlogPost()
 ```
 
-I would like to a bit more in-depth about why I programmed this option into
+I would like to go a bit more in-depth about why I programmed this option into
 eslint. Actually, I will explain why I use this style at all, because it seems
 that it is not so common, and it tends to surprise my co-workers.
 
-Most  programmers will impose to them-selves to always uses the braces in any
+Most  programmers will impose to them-selves to always use braces in any
 situation. The main reason for this is to prevent programming errors while
 maintaining the code. This:
 
@@ -57,18 +57,19 @@ configuration, adding a second statement is a more involved operation, and the
 maintainer is a lot less likely to make the infamous mistake, I think. I have no
 data to back up that claim though.
 
-Joining the condition and the consequence on one-line also presents a clear-cut
-advantage: it is more compact. While simply omitting the braces saves you one
-line, joining will save you two out of three. Of course, compactness is not a
-virtue of its own and should not sought blindly. However, one-line conditional
-statements often are trivial, even tangential to the behavior at hand.
+Joining the condition and the consequence on the same line also presents a
+clear-cut advantage: it is more compact. While simply omitting the braces saves
+you one line, joining will save you two out of three. Of course, compactness is
+not a virtue of its own and should not sought blindly. However, one-line
+conditional statements often are trivial, even tangential to the behavior at
+hand.
 
 Readable code reveals the intent of the writer. It makes the relevant stand out
-and greys out the detail. If a conditional statement is part of these details,
-then I don't want it to span three lines when one is enough. This might apply to
-conditionals like returning or throwing when a parameter is special value.
+and greys out details. If a conditional statement is part of these details, then
+I don't want it to span three lines when one is enough. This might apply to
+conditionals like returning or throwing when a parameter is a special value.
 Special cases in general are not something I want to clutter my algorithm with,
-so I find writing them on one line a neat way to tidy up the code and make it
+so I find handling them on one line a neat way to tidy up the code and make it
 more readable.
 
 In conclusion, I find one-line braceless compound statements to have double the
@@ -76,4 +77,4 @@ advantage of two-line ones, while being less problematic. So why not use it?
 
 The `multi-line` option is available from eslint 0.15.  [Checkstyle supports it
 too](http://checkstyle.sourceforge.net/config_blocks.html#NeedBraces) using the
-`allowSingleLineStatement` property!
+`allowSingleLineStatement` property.
