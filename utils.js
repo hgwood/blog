@@ -24,7 +24,7 @@ function posts() {
 }
 
 function yfm(post) {
-  const matcher = post.content.match(/^---\s+title: (.*)\s+date: ([\d\-]+)T.+\s+.*\s+---\s+/)
+  const matcher = post.content.match(/^---\s+title: (.*)\s+date: ([\d\-]+)(T\d\d:\d\d)?\s+---/)
   if (!matcher) throw new Error(`incorrect yfm in ${post.path}`)
   return {title: matcher[1], date: matcher[2]}
 }
