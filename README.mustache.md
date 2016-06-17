@@ -4,6 +4,11 @@
 
 {{!postList}}
 
+## Talks
+
+- [Hypermedia in the Shadow of the Death Star at Devfest Nantes 2015](https://www.youtube.com/watch?v=_TcBu40PyJY) (French)
+- [Kill all the REST with the Falcor at Devoxx France 2016](https://www.youtube.com/watch?v=woOg4UyNHn8) (French)
+
 ## Open Source Contributions
 
 - On [GitHub](https://github.com/pulls?q=is%3Apr+author%3Ahgwood+), including:
