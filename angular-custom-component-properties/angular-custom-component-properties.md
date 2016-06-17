@@ -3,7 +3,7 @@ title: Angular.js Custom Component Properties
 date: 2016-06-17T22:20
 ---
 
-Here's a trick a learned today. It is possible to attach custom properties to component definition objects in Angular 1.5.
+Here's a trick I learned today. It is possible to attach custom properties to component definition objects in Angular 1.5.
 
 ```js
 .component('customComponent', {
