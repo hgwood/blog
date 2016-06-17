@@ -2,6 +2,7 @@
 
 ## Posts
 
+- 2016-06-17: [Angular.js Custom Component Properties](angular-custom-component-properties/angular-custom-component-properties.md)
 - 2016-03-19: [Why I contributed the multi-line option to the eslint curly rule](multiline-option-for-the-eslint-curly-rule/multiline-option-for-the-eslint-curly-rule.md)
 - 2014-02-20: [Experimenting with Java 8, streams and exceptions](experimenting-with-java8/experimenting-with-java8.md)
 - 2014-02-08: [Upgrading JUnit and Test Execution Order](upgrading-junit/upgrading-junit.md)
@@ -20,7 +21,13 @@
 
 ## Open Source Contributions
 
-- [GitHub](https://github.com/pulls?q=is%3Apr+author%3Ahgwood+).
+- On [GitHub](https://github.com/pulls?q=is%3Apr+author%3Ahgwood+), including:
+  - [A small feature](https://github.com/gulpjs/vinyl-fs/pull/168) for [Vinyl-fs](https://github.com/gulpjs/vinyl-fs), a subsystem of Gulp.
+  - [Pluggable bindings](https://github.com/sandeepmistry/noble/pull/366) for [Noble](https://github.com/sandeepmistry/noble).
+  - [Some documentation](https://github.com/nodejs/node/pull/5331) for [Node.js](https://github.com/nodejs/node).
+  - [Support for array delegate creators](https://github.com/FasterXML/jackson-databind/pull/1010) in [Jackson](https://github.com/FasterXML/jackson-databind);
+  - [A new option for the curly rule](https://github.com/eslint/eslint/pull/1825) in [ESLint](https://github.com/eslint/eslint).
+  - [A fix for a Windows-related bug](https://github.com/remy/nodemon/pull/492) in [nodemon](https://github.com/remy/nodemon).
 
 ## Online Presence
 
