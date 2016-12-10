@@ -1,1 +1,5 @@
-theme: minima
+title: "Website title"
+description: "Website description"
+logo: https://fr.gravatar.com/userimage/29443400/90b6deecb2e100f40ac269c4dcabf7a3.jpg?size=200
+
+theme: garth-jekyll-theme
