@@ -20,7 +20,7 @@ public void test2() {
 }
 ```
 
-Well that's an epic fail. Turns out it accidentally works with JUnit 4.3 on a version 5 JRE, which consistently runs test methods in the order they are written in. This is not true of JUnit 4.11, in which `test2` is run (always?) before `test1`, effectively blocking indefinitely.
+This means `test2` was waiting for `test1` to do its thing before starting. Turns out this accidentally works with JUnit 4.3 on a version 5 JRE, which consistently runs test methods in the order they are written in. This is not true of JUnit 4.11, in which `test2` is run (always?) before `test1`, effectively blocking indefinitely.
 
 The lesson is clear and already well-known of course: never depend on the test execution order. Tests must be independent, and here's a practical consequence of breaking the rule.
 
