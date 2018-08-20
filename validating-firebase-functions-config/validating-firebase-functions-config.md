@@ -96,3 +96,7 @@ typescript-json-schema --required --out config-schema.json functions/src/config.
 ```
 
 The output is equivalent to the schema shown earlier. Use `--noExtraProps` to forbid extra properties in the configuration.
+
+## An officially supported solution in the future?
+
+Have a look at [this issue](https://github.com/firebase/firebase-tools/issues/406).
