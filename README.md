@@ -2,6 +2,7 @@
 
 ## Posts
 
+- 2018-08-20: [Validating Firebase Cloud Functions Configuration Before Deploying](validating-firebase-functions-config/validating-firebase-functions-config.md)
 - 2016-06-17: [Angular.js Custom Component Properties](angular-custom-component-properties/angular-custom-component-properties.md)
 - 2016-03-19: [Why I contributed the multi-line option to the eslint curly rule](multiline-option-for-the-eslint-curly-rule/multiline-option-for-the-eslint-curly-rule.md)
 - 2014-02-20: [Experimenting with Java 8, streams and exceptions](experimenting-with-java8/experimenting-with-java8.md)
