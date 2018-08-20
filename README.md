@@ -19,9 +19,28 @@
 - 2013-08-25: [Object-Orientation Doesn't Need Classes](oo-doesnt-need-classes/oo-doesnt-need-classes.md)
 - 2013-07-20: [Why I Avoid Private Methods](why-i-avoid-private-methods/why-i-avoid-private-methods.md)
 
+## Talks
+
+- [Hypermedia in the Shadow of the Death Star](https://www.youtube.com/watch?v=_TcBu40PyJY) (French)
+- [Kill all the REST with the Falcor](https://www.youtube.com/watch?v=woOg4UyNHn8) (French)
+- [GraphQL vs Falcor](https://www.youtube.com/watch?v=HJuOC2WFNDs) (French)
+- [Event Sourcing avec Apache Kafka](https://www.youtube.com/watch?v=pqw_8rDw4Yw) (French)
+
+## YouTube videos
+
+- [Falcor](https://www.youtube.com/watch?v=uj30Duv0SZM) (French)
+- [L'échange de données front-back efficace avec GraphQL](https://www.youtube.com/watch?v=BBGbKDX_xe4) (French)
+- [MinuteJS #1](https://www.youtube.com/watch?v=-yDsLsFj5H8) (French, guest)
+
 ## Open Source Contributions
 
 - On [GitHub](https://github.com/pulls?q=is%3Apr+author%3Ahgwood+), including:
+  - A few enhancements to [Conference Hall](https://github.com/bpetetot/conference-hall): [#180](https://github.com/bpetetot/conference-hall/pulls/180), [#187](https://github.com/bpetetot/conference-hall/pulls/187), [#196](https://github.com/bpetetot/conference-hall/pulls/196).
+  - [Windows-compatible npm scripts](https://github.com/violentmonkey/violentmonkey/pulls/216) for [violentmonkey](https://github.com/violentmonkey/violentmonkey).
+  - [Major refactoring of the path syntax parser](https://github.com/Zenika/immutadot/pull/115) of [immutadot](https://github.com/Zenika/immutadot). 
+  - [Configurable timeout when reading messages](https://github.com/spring-projects/spring-kafka/pull/381) with [Spring Kafka](https://github.com/spring-projects/spring-kafka).
+  - Some tweaks to [cross-env](https://github.com/kentcdodds/cross-env): [#85](https://github.com/kentcdodds/cross-env/pull/85), [#86](https://github.com/kentcdodds/cross-env/pull/86), [#89](https://github.com/kentcdodds/cross-env/pull/89), [#96](https://github.com/kentcdodds/cross-env/pull/96)
+  - [Allow `JAVA_OPTS` to be passed to a dockerized](https://github.com/metabase/metabase/pull/3884) [Metabase](https://github.com/metabase/metabase).
   - [A small feature](https://github.com/gulpjs/vinyl-fs/pull/168) for [Vinyl-fs](https://github.com/gulpjs/vinyl-fs), a subsystem of Gulp.
   - [Pluggable bindings](https://github.com/sandeepmistry/noble/pull/366) for [Noble](https://github.com/sandeepmistry/noble).
   - [Some documentation](https://github.com/nodejs/node/pull/5331) for [Node.js](https://github.com/nodejs/node).
