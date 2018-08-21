@@ -50,7 +50,7 @@ if (time.midnight)
 
 This new code is incorrect.
 
-I understand the rationale for enforcing braces and I completely agrees with it.
+I understand the rationale for enforcing braces and I completely agree with it.
 Now I argue that the problem is not as significant when the statement is on the
 same line as the condition: `if (time.midnight) goToSleep()`. In this
 configuration, adding a second statement is a more involved operation, and the
