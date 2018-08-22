@@ -18,7 +18,7 @@ vault kv get secret/data/hello-world
 > secret_key=1234
 ```
 
-The first argument to `kv put` and `kv get` is a path. The path is used to control permissions to read and write keys, using policies. While policies may restrict a Vault user to access a given path, all users still share the same paths. This means that users have no personal space to store personal secrets in the key-value secret engine.
+The first argument to `kv put` and `kv get` is a path. The path is used to control permissions to read and write keys, using policies. While policies may restrict a Vault user to access a given path, all users still share the same paths. This means that users have no personal space to store personal secrets in the key-value secret engine. It can only be achieved by writing a specific policy for each and every user, allowing them to use a unique path that no other user has access to. Not very practical.
 
 
 ## What's the use case for personal secrets?
@@ -36,7 +36,7 @@ So where's the personal space?
 
 ## What about the cubbyhole engine?
 
-Vault provides at alternate secret engine, the [cubbyhole engine](https://www.vaultproject.io/docs/secrets/cubbyhole/index.html), which works the same as the KV engine, except that all paths are namespaced to a token. Tokens are the most basic way you may log into Vault. They are opaque strings that have policies and a time-to-live attached to them. When a token is revoked, its cubbyhole is deleted. Consequently, having personal data inside a cubbyhole would mean having long-lived tokens, and while I'm not sure about this, I think that's not great. Also, logging in to Vault with an authentication backend as described earlier generates a new token everytime, so using cubbyhole would force applications to save the token resulting from the first login and keep renewing it forever. Not very practical.
+Vault provides at alternate secret engine, the [cubbyhole engine](https://www.vaultproject.io/docs/secrets/cubbyhole/index.html), which works the same as the KV engine, except that all paths are namespaced to a token. Tokens are the most basic way you may log into Vault. They are opaque strings that have policies and a time-to-live attached to them. When a token is revoked, its cubbyhole is deleted. Consequently, having personal data inside a cubbyhole would mean having long-lived tokens, and while I'm not sure about this, I think that's not great. Also, logging in to Vault with an authentication backend as described earlier generates a new token everytime, so using cubbyhole would force applications to save the token resulting from the first login and keep renewing it forever. Again, not very practical.
 
 
 ## Vault 0.11 saves the day
