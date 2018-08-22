@@ -61,10 +61,13 @@ vault token lookup
 vault kv put secret/data/<entity id>/app1 email=...
 ```
 
+The policy enables each user to have its own path for personal secrets.
 
 ## Limitation?
 
 Since the personal space is part of the shared key-value namespace, it is accessible by root tokens. However, [root tokens should not exist in normal operation](https://www.vaultproject.io/docs/concepts/tokens.html#root-tokens), and [their generation is complex](https://www.vaultproject.io/docs/commands/operator/generate-root.html), so I think that's OK, even desirable maybe, in some exceptional cases.
+
+Also, Vault admins should be careful not to accidentally grant access to personal paths in other policies.
 
 
 ## What now?
