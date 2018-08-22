@@ -2,6 +2,7 @@
 
 ## Posts
 
+- 2018-08-21: [Personal secrets in Vault 0.11+](personal-secrets-in-vault/personal-secrets-in-vault.md)
 - 2018-08-20: [Validating Firebase Cloud Functions Configuration Before Deploying](validating-firebase-functions-config/validating-firebase-functions-config.md)
 - 2016-06-17: [Angular.js Custom Component Properties](angular-custom-component-properties/angular-custom-component-properties.md)
 - 2016-03-19: [Why I contributed the multi-line option to the eslint curly rule](multiline-option-for-the-eslint-curly-rule/multiline-option-for-the-eslint-curly-rule.md)
