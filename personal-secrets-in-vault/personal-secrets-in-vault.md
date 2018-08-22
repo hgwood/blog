@@ -64,7 +64,7 @@ vault kv put secret/data/<entity id>/app1 email=...
 
 ## Limitation?
 
-Since the personal space is part of the shared key-value namespace, it is accessible by root tokens. However, root tokens should not be used in normal operation, and their generation should only be authorized by several people, so I think that's OK, even desirable maybe, in some exceptional cases.
+Since the personal space is part of the shared key-value namespace, it is accessible by root tokens. However, [root tokens should not exist in normal operation](https://www.vaultproject.io/docs/concepts/tokens.html#root-tokens), and [their generation is complex](https://www.vaultproject.io/docs/commands/operator/generate-root.html), so I think that's OK, even desirable maybe, in some exceptional cases.
 
 
 ## What now?
