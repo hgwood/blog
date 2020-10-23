@@ -2,6 +2,8 @@
 
 ## Posts
 
+> ⚠ Older posts may not represent my current opinions. They may also employ tones that I would not condone today.
+
 {{!postList}}
 
 ## Talks

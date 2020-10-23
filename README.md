@@ -2,6 +2,8 @@
 
 ## Posts
 
+> ⚠ Older posts may not represent my current opinions. They may also employ tones that I would not condone today.
+
 - 2018-08-21: [Personal secrets in Vault 0.11+](personal-secrets-in-vault/personal-secrets-in-vault.md)
 - 2018-08-20: [Validating Firebase Cloud Functions Configuration Before Deploying](validating-firebase-functions-config/validating-firebase-functions-config.md)
 - 2016-06-17: [Angular.js Custom Component Properties](angular-custom-component-properties/angular-custom-component-properties.md)
